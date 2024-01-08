@@ -20,6 +20,17 @@ body::before {
     background: #121214;
 }
 
+.page {
+    width: 736px;
+    margin: auto;
+}
+
+header {
+    width: 319px;
+
+    margin-top: 74px;
+}
+
 header h1 {
     font-family: 'Archivo', sans-serif;
     font-weight: bold;
@@ -33,4 +44,11 @@ header p {
     line-height: 26px;
 
     color: #42D3FF;
+}
+
+form {
+   margin-top: 38px;
+    background: #fafafc;
+border-radius: 8px;
+    min-height: 300px;
 }
